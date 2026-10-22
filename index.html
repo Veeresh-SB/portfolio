@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Veeresh Bhankapure, an entry-level Data Analyst skilled in SQL, Python, Excel and Power BI.">
+  <title>Veeresh Bhankapure | Data Analyst Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .initials { display:flex; align-items:center; justify-content:center; width:100%; height:100%; border-radius:50%; background:linear-gradient(135deg,#0f172a,#164e63); color:#38bdf8; font:700 3rem Poppins,sans-serif; border:3px solid var(--background); }
+    .project-content { height:100%; }
+    .project-card { overflow:hidden; }
+    .contact-info a { color:var(--muted); text-decoration:none; }
+    .contact-info a:hover { color:var(--accent); }
+    .pub-card { padding:1.5rem; }
+    .skill-category h3 { margin-top:.8rem; }
+    .about-copy p, .pub-card p { color:var(--muted); margin-top:.7rem; }
+    .small-note { color:var(--muted); font-size:.9rem; }
+    @media(max-width:768px){ .glass-nav{position:sticky;top:0}.hero{min-height:auto;padding-top:65px}.nav-links{gap:.7rem}.nav-links a{font-size:.85rem} }
+  </style>
+</head>
+<body>
+  <nav class="glass-nav">
+    <a class="logo" href="#home" style="text-decoration:none;color:var(--text)">Veeresh<span>.portfolio</span></a>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li><li><a href="#experience">Experience</a></li><li><a href="#skills">Skills</a></li><li><a href="#projects">Projects</a></li><li><a href="#publication">Publication</a></li><li><a href="#contact" class="btn-primary-small">Contact</a></li>
+    </ul>
+  </nav>
+
+  <header id="home" class="hero">
+    <div class="hero-bg-grid"></div>
+    <div class="hero-content">
+      <div class="profile-img-container"><div class="initials" aria-label="VB initials">VB</div></div>
+      <p class="highlight" style="font-weight:600;letter-spacing:2px;text-transform:uppercase">MCA Graduate · Bengaluru, India</p>
+      <h1>Hi, I'm <span class="highlight">Veeresh Bhankapure</span></h1>
+      <h2 class="typed-text-container">Aspiring <span id="typed-roles">Data Analyst</span></h2>
+      <p class="tagline">I use data analysis, SQL, Python, Excel and Power BI to clean data, explore patterns, and communicate useful insights for better business decisions.</p>
+      <div class="hero-buttons"><a href="#projects" class="btn btn-primary">View Projects</a><a href="resume.pdf" target="_blank" rel="noopener" class="btn btn-outline">Download Resume</a></div>
+      <div class="social-links mt-4">
+        <a href="https://github.com/Veeresh-SB" target="_blank" rel="noopener" title="GitHub" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/veeresh-bhankapure/" target="_blank" rel="noopener" title="LinkedIn" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        <a href="mailto:veereshveereshsb564@gmail.com" title="Email" aria-label="Email"><i class="fas fa-envelope"></i></a>
+      </div>
+    </div>
+  </header>
+
+  <section id="about" class="container">
+    <div class="section-header"><h2>About Me</h2><div class="underline"></div></div>
+    <div class="about-grid">
+      <div class="glass-card p-6 about-copy"><h3>Professional Summary</h3>
+        <p>Entry-level MCA graduate with hands-on experience in Python, SQL and Power BI. Familiar with data cleaning, exploratory data analysis (EDA), database querying, data validation and dashboard creation. Seeking a Data Analyst role where I can support data-driven decisions and keep developing my analytical skills.</p>
+        <div class="current-focus mt-4"><h4>Areas of Focus</h4><div class="tags"><span class="tag">Data Analysis</span><span class="tag">SQL Queries</span><span class="tag">Data Cleaning</span><span class="tag">Dashboards</span></div></div>
+      </div>
+      <div class="timeline glass-card p-6"><h3>Education & Learning</h3>
+        <div class="timeline-item active"><div class="timeline-dot"></div><h4>Master of Computer Applications (MCA)</h4><p class="small-note">New Horizon College of Engineering, Bengaluru · 2023–2025</p><p class="small-note">CGPA: 7.14</p></div>
+        <div class="timeline-item"><div class="timeline-dot"></div><h4>NPTEL Certification</h4><p class="small-note">The Joy of Computing Using Python</p></div>
+        <div class="timeline-item"><div class="timeline-dot"></div><h4>Continuous Learning</h4><p class="small-note">Python, SQL, Excel, Power BI and data visualization</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="experience" class="container">
+    <div class="section-header"><h2>Professional Experience</h2><div class="underline"></div><p class="subtitle">Internship experience</p></div>
+    <div class="experience-wrapper glass-card"><div class="experience-timeline">
+      <div class="exp-item"><div class="exp-dot"></div><div class="exp-date">April 2025 – July 2025</div><h3 class="exp-role">Full Stack Development Intern</h3><div class="exp-company">Dotch Endeavors Pvt. Ltd. · Flexi Leave – Smart Leave Tracking System</div>
+        <ul class="exp-details"><li>Developed UI screens for employee dashboards, leave applications, leave history, admin dashboards and master data management.</li><li>Built PHP and MySQL functionality for authentication, leave requests, approvals, leave balance tracking and employee administration.</li><li>Worked on SQL query optimization, streamlined workflows and responsive user interfaces.</li></ul>
+        <div class="tags"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span><span class="tag">PHP</span><span class="tag">MySQL</span></div>
+      </div>
+    </div></div>
+  </section>
+
+  <section id="skills" class="container">
+    <div class="section-header"><h2>Technical Skills</h2><div class="underline"></div></div>
+    <div class="skills-grid">
+      <div class="skill-category glass-card p-6"><i class="fas fa-chart-line accent-icon"></i><h3>Data Analysis</h3><div class="tags"><span class="tag">Data Cleaning</span><span class="tag">EDA</span><span class="tag">Data Validation</span><span class="tag">Data Management</span></div></div>
+      <div class="skill-category glass-card p-6"><i class="fas fa-code accent-icon"></i><h3>Programming & Querying</h3><div class="tags"><span class="tag">Python</span><span class="tag">SQL</span><span class="tag">MySQL</span></div></div>
+      <div class="skill-category glass-card p-6"><i class="fas fa-chart-bar accent-icon"></i><h3>Reporting & Visualization</h3><div class="tags"><span class="tag">Power BI</span><span class="tag">MS Excel</span><span class="tag">Matplotlib</span><span class="tag">Seaborn</span></div></div>
+      <div class="skill-category glass-card p-6"><i class="fas fa-database accent-icon"></i><h3>Databases & Tools</h3><div class="tags"><span class="tag">MongoDB</span><span class="tag">Git</span><span class="tag">VS Code</span><span class="tag">SDLC</span><span class="tag">Agile & Waterfall</span></div></div>
+    </div>
+  </section>
+
+  <section id="projects" class="container">
+    <div class="section-header"><h2>Featured Projects</h2><div class="underline"></div><p class="subtitle">Projects listed in my resume</p></div>
+    <div class="projects-grid">
+      <article class="project-card glass-card"><div class="project-image mock-img-1" style="display:flex;align-items:center;justify-content:center"><i class="fas fa-calendar-check" style="font-size:4rem;color:#38bdf8"></i></div><div class="project-content"><h3>Flexi Leave – Smart Leave Tracking System</h3><div class="tags small"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span><span class="tag">PHP</span><span class="tag">MySQL</span></div><p><strong>Overview:</strong> Employee leave management system with employee and admin dashboards, leave requests, approvals, leave history and balance tracking.</p><p><strong>My contribution:</strong> Built UI screens and backend functionality, and worked on SQL query optimization and responsive workflows.</p></div></article>
+      <article class="project-card glass-card"><div class="project-image mock-img-2" style="display:flex;align-items:center;justify-content:center"><i class="fas fa-headset" style="font-size:4rem;color:#6ee7b7"></i></div><div class="project-content"><h3>SOP – Customer Inquiry Handling</h3><div class="tags small"><span class="tag">Java</span><span class="tag">Java Swing</span><span class="tag">JDBC</span><span class="tag">MySQL</span></div><p><strong>Overview:</strong> Customer inquiry management system with registration, login, inquiry submission, department assignment and inquiry status tracking.</p><p><strong>Implementation:</strong> Designed the database schema, integrated JDBC for CRUD operations, and built admin and department panels for Pending, In-Progress and Completed statuses.</p></div></article>
+    </div>
+    <p class="small-note" style="margin-top:1rem">Project code links can be added when the corresponding repositories are available on my GitHub profile.</p>
+  </section>
+
+  <section id="publication" class="container">
+    <div class="section-header"><h2>Publication & Certification</h2><div class="underline"></div></div>
+    <div class="about-grid">
+      <div class="glass-card pub-card"><i class="fas fa-book-open accent-icon" style="font-size:1.5rem"></i><h3 style="margin-top:.8rem">AI-Driven Predictive Auto-Scaling for Efficient Microservices Deployment in Cloud Data Centers using LSTM and Kubernetes HPA</h3><p>Presented at the 5th International Conference on Expert Clouds and Applications (ICOECA 2025).</p></div>
+      <div class="glass-card pub-card"><i class="fas fa-certificate accent-icon" style="font-size:1.5rem"></i><h3 style="margin-top:.8rem">The Joy of Computing Using Python</h3><p>NPTEL certification.</p><div class="tags"><span class="tag">Python</span><span class="tag">Programming Fundamentals</span></div></div>
+    </div>
+  </section>
+
+  <section id="github" class="container">
+    <div class="section-header"><h2>GitHub Projects</h2><div class="underline"></div><p class="subtitle">Public repositories from my GitHub account</p></div>
+    <div id="github-repos" class="github-grid"><div class="glass-card p-6"><p class="subtitle">Loading public repositories…</p></div></div>
+    <p class="small-note" style="margin-top:1rem">If repositories do not load, visit <a class="highlight" href="https://github.com/Veeresh-SB" target="_blank" rel="noopener">github.com/Veeresh-SB</a>.</p>
+  </section>
+
+  <section id="contact" class="container">
+    <div class="contact-card glass-card"><h2>Let's Connect</h2><p class="subtitle">I'm looking for entry-level Data Analyst opportunities where I can contribute analytical and problem-solving skills.</p>
+      <div class="contact-info mt-4"><p><i class="fas fa-envelope accent-icon"></i> <a href="mailto:veereshveereshsb564@gmail.com">veereshveereshsb564@gmail.com</a></p><p><i class="fas fa-phone accent-icon"></i> <a href="tel:+919108725877">+91 9108725877</a></p><p><i class="fas fa-map-marker-alt accent-icon"></i> Bengaluru, Karnataka, India</p></div>
+      <div class="social-links mt-4"><a href="https://github.com/Veeresh-SB" target="_blank" rel="noopener" title="GitHub"><i class="fab fa-github"></i></a><a href="https://www.linkedin.com/in/veeresh-bhankapure/" target="_blank" rel="noopener" title="LinkedIn"><i class="fab fa-linkedin"></i></a><a href="mailto:veereshveereshsb564@gmail.com" title="Email"><i class="fas fa-envelope"></i></a></div>
+      <a href="resume.pdf" target="_blank" rel="noopener" class="btn btn-primary mt-4">Download Resume</a>
+    </div>
+  </section>
+
+  <footer class="footer"><div class="container text-center" style="padding-top:2rem;padding-bottom:2rem"><p>Designed & developed by <strong>Veeresh Bhankapure</strong></p><p class="tech-stack-footer">Built with HTML, CSS and JavaScript</p></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>
